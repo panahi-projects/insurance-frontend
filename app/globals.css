@@ -5,11 +5,19 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-background: oklch(1 0 0);
+  --color-foreground: oklch(0.1667 0.002 275.88);
+  --color-primary: oklch(0.1711 0.004 301.95);
+  --color-primary-foreground: oklch(0.9897 0.004 264.77);
+  --color-secondary: oklch(0.9615 0.003 308.42);
+  --color-secondary-foreground: oklch(0.1711 0.004 301.95);
+  --color-destructive: oklch(0.6119 0.2132 27.09);
+  --color-destructive-foreground: oklch(0.9897 0.004 264.77);
+  --color-border: oklch(0.9163 0.006 298.36);
+  --color-ring: oklch(0.1711 0.004 301.95);
+  --color-muted: oklch(0.9615 0.003 308.42);
+  --color-muted-foreground: oklch(0.4894 0.011 279.16);
 }
 
 @media (prefers-color-scheme: dark) {
